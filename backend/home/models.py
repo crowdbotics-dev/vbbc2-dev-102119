@@ -4,7 +4,7 @@ class Vbcb(models.Model):
     'Generated Model'
     cncb = models.BigIntegerField()
     shdhd = models.BigIntegerField()
-    def test_method(self):
+    def cncb(self):
         import requests
         response = requests.get("https://hello.com")
         data = response.json()
